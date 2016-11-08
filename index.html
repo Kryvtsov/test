@@ -5,21 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Test</title>
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
     <div class="main_bg">
         <div class="message_bg">
             <div class="message">
-                <form action="">
-                    <input type="text" class="message_in" name="name" placeholder="name" required>
-                    <hr size=5px width=200px align="left" color="#E5E5E5">
-                    <input type="email" class="message_in" name="email" placeholder="email" required>
-                    <hr size=5px width=200px align="left" color="#E5E5E5">
-                    <input type="url" class="message_in" name="url" placeholder="web" required>
-                     <hr size=5px width=200px align="left" color="#E5E5E5">
-                    <textarea name="text" class="message_in text" placeholder="message" cols="30" rows="3" required></textarea>
-                    <button type="submit">send</button>
+                <form action="#">
+                    <div class="left">
+                        <div class="line">
+                            <input type="text"  name="name" placeholder="NAME" required>
+                        </div>
+                        <div class="line">
+                            <input type="email"  name="email" placeholder="EMAIL" required>
+                        </div>
+                        <div class="line">
+                            <input type="url"  name="url" placeholder="WEB" required>
+                        </div>
+                    </div>
+                    <div class="line_text">
+                        <textarea name="text" placeholder="MESSAGE"  rows="3" maxlength="66" required></textarea>
+                        <div class="line_text_in"></div>
+                    </div>
+                        <button type="submit">send</button>
                 </form>
             </div>
         </div>
